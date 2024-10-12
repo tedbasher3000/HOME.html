@@ -1,0 +1,72 @@
+body {
+    background: #10001d;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 0px 4px white;
+    margin: 0px;
+}
+
+.HOME {
+    width: 320px;
+    height: 240px;
+    border-style: none;
+    box-shadow: 0px 0px 16px 0px #DFDFE7;
+    background: #DFDFE7;
+    padding: 0px;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: -160px;
+    top: 50%;
+    left: 50%;
+}
+
+.btn_settings {
+    width: 56px;
+    height: 36px;
+    background-image: url('settings.png');
+    background-size: cover;
+}
+
+.btn_settings:hover {
+    background-image: url('settings-hover.png')
+}
+
+.btn_resize {
+    width: 54px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    left: 265px;
+    background-image: url('resize.png');
+    background-size: cover;
+}
+
+.app_grid {
+    width: 320px;
+    height: 175px;
+    position: absolute;
+    top: 38px;
+    background-image: url('app_grid.png');
+    background-size: cover;
+}
+
+
+.btn_bottom {
+    width: 320px;
+    height: 27px;
+    position: absolute;
+    top: 213px;
+    background-image: url('button.png');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.295);
+}
+
+.btn_bottom:hover {
+    background-image: url('button-hover.png');
+    text-shadow: 0px 0px 0px;
+    color: white;
+}
